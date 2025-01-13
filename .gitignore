@@ -1,1 +1,48 @@
+# Ignorer l'environnement virtuel
+venv/
 env/
+.venv/
+.env/
+
+# Fichiers de configuration d'environnement
+*.env
+*.env.*
+
+# Fichiers compilés Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Dossiers de tests, logs et debug
+logs/
+*.log
+*.pot
+coverage/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Configuration IDE
+.idea/
+.vscode/
+*.swp
+
+# Dépendances installées
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build et distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches et artefacts
+*.sqlite3
+*.bak
+.DS_Store
+Thumbs.db
